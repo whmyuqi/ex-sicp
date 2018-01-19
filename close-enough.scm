@@ -1,0 +1,5 @@
+(define (close-enough? tolerance)
+    (lambda (v1 v2)
+        (< (abs (- v1 v2)) tolerance)
+    )
+)
